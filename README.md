@@ -100,7 +100,7 @@ Salida:
 
 ```
 ¡Bienvenido al tutorial de Java!
-Hola, Carlos! Que tengas un buen día.
+Hola, Hernan! Que tengas un buen día.
 Área del rectángulo: 25.5 m²
 14 es par.
 --- Tabla del 7 ---
