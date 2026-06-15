@@ -25,7 +25,7 @@ Al terminar este tutorial vas a entender cinco conceptos fundamentales que se us
 
 ### La idea 
 
-Imaginá que tu profesor de educación física te dice: *"Haz 10 lagartijas"*. Vos no te quedás parado pensando en hacer 10 movimientos distintos — simplemente repetís el mismo movimiento una y otra vez hasta llegar a 10.
+Imaginá que tu profesor de educación física te dice: *"Haz 10 lagartijas"*. Tu no te quedás parado pensando en hacer 10 movimientos distintos — simplemente repetís el mismo movimiento una y otra vez hasta llegar a 10.
 
 Eso es exactamente un ciclo en programación: **una instrucción que se repite automáticamente** una cantidad de veces o hasta que se cumpla alguna condición. Sin ciclos, para imprimir los números del 1 al 100 tendrías que escribir 100 líneas de código. Con un ciclo, se hace en 3.
 
