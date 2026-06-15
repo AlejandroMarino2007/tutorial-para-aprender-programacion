@@ -1,8 +1,8 @@
 # Aprende Java desde Cero — Tutorial para Principiantes
 
-¿Nunca has programado en tu vida? Perfecto, este tutorial es para vos.
+¿Nunca has programado en tu vida? Perfecto, este tutorial es para ti.
 
-Acá no se asume que sabés nada de programación. Cada concepto se explica desde el principio, con ejemplos de la vida real, y el código se desglosa línea por línea para que no tengas que adivinar qué hace cada parte. Si algo no lo entendés a la primera, releelo con calma — la programación no es difícil, solo requiere paciencia.
+Aqui no se asume que sabés nada de programación. Cada concepto se explica desde el principio, con ejemplos de la vida real, y el código se desglosa línea por línea para que no tengas que adivinar qué hace cada parte. Si algo no lo entiendes a la primera, releelo con calma — la programación no es difícil, solo requiere paciencia.
 
 Al terminar este tutorial vas a entender cinco conceptos fundamentales que se usan en prácticamente cualquier programa del mundo real.
 
@@ -23,7 +23,7 @@ Al terminar este tutorial vas a entender cinco conceptos fundamentales que se us
 
 ## 1. Ciclos (Bucles)
 
-### La idea sin tecnicismos
+### La idea 
 
 Imaginá que tu profesor de educación física te dice: *"Haz 10 lagartijas"*. Vos no te quedás parado pensando en hacer 10 movimientos distintos — simplemente repetís el mismo movimiento una y otra vez hasta llegar a 10.
 
@@ -199,7 +199,7 @@ Si olvidás modificar la variable dentro del `while`, la condición nunca se vue
 
 Pensá en una receta de cocina. La receta para hacer arroz está escrita una sola vez en el libro, pero la podés usar todas las veces que quieras sin volver a inventarla. Además, alguien puede seguir la receta sin saber nada de cocina.
 
-Un **método** funciona igual: es un bloque de código al que le ponés un nombre, lo escribís una vez, y lo podés usar (llamar) desde cualquier parte del programa cuantas veces necesites. Esto se llama **modularización** — dividir el programa en partes pequeñas y manejables.
+Un **método** funciona igual: es un bloque de código al que le ponés un nombre, lo escribes una vez, y lo puedes usar (llamar) desde cualquier parte del programa cuantas veces necesites. Esto se llama **modularización** — dividir el programa en partes pequeñas y manejables.
 
 ---
 
@@ -215,9 +215,9 @@ public static double calcularArea(double base, double altura) {
 Desglose palabra por palabra:
 
 - `public` → el método es accesible desde cualquier parte del programa
-- `static` → podés llamar al método sin necesitar crear un "objeto". En primer semestre, casi siempre vas a usar `static` porque trabajamos dentro de una sola clase
+- `static` → puedes llamar al método sin necesitar crear un "objeto". En primer semestre, casi siempre vas a usar `static` porque trabajamos dentro de una sola clase
 - `double` → el tipo de dato que el método va a **devolver** (en este caso, un número decimal). Si el método no devuelve nada, se escribe `void` (vacío)
-- `calcularArea` → el nombre que le damos al método. Podés ponerle cualquier nombre descriptivo
+- `calcularArea` → el nombre que le damos al método. Puedes ponerle cualquier nombre descriptivo
 - `(double base, double altura)` → los **parámetros**: datos que el método necesita recibir para trabajar. Es como decirle a la receta "necesito que me des los ingredientes"
 - `return area` → devuelve el resultado al lugar que llamó al método
 
@@ -302,7 +302,7 @@ return (numero % 2 == 0);
 ```
 mostrarBienvenida();
 ```
-Así se llama (usa) un método. Solo escribís su nombre seguido de paréntesis.
+Así se llama (usa) un método. Solo escribes su nombre seguido de paréntesis.
 
 ```
 double resultado = calcularArea(6.0, 4.5);
